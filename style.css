@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.add-task__input-wrapper {
+.add__input-wrapper {
   display: flex;
 }
 ul {
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="add-task__input"] {
+label[for="add__input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="add-task__input"] {
+label[for="add__input"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add-task__input {
+input#add__input {
   width: 318px;
 }
 
