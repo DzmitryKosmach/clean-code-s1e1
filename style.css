@@ -58,7 +58,7 @@
 
 }
 
-#incomplete-tasks, #completed-tasks {
+.incomplete, .completed {
 
   margin: 0;
   padding: 0px;
@@ -77,9 +77,9 @@ button {
   outline: none;
 
 }
-.edit,
-.delete,
-.add {
+.edit-task,
+.delete-task,
+.add-task {
   
   background: none;
   border: 0px;
@@ -91,9 +91,9 @@ button {
 
 }
 
-.edit:hover,
-.delete:hover,
-.add:hover {
+.edit-task:hover,
+.delete-task:hover,
+.add-task:hover {
 
   color: #3a3A3a;
 
@@ -114,7 +114,7 @@ button {
 }
 
 .input-text,
-#add__input {
+.add__input {
 
   margin: 0;
   font-size: 18px;
@@ -130,7 +130,7 @@ button {
 }
 
 .input-text:focus,
-#add__input:focus {
+.add__input:focus {
 
   color: #333;
 
@@ -138,14 +138,14 @@ button {
 
 /* New Task */
 
-#add .section-name {
+.add .section-name {
 
   display: block;
   margin: 0 0 20px;
 
 }
 
-#add__input {
+.add__input {
 
   width: 318px;
 
@@ -153,7 +153,7 @@ button {
 
 /* Task list */
 
-.wrap-task {
+.task-item {
 
   overflow: hidden;
   padding: 20px 0;
@@ -165,7 +165,7 @@ button {
 
 }
 
-.wrap-task > * {
+.task-item > * {
 
   vertical-align: middle;
 
@@ -192,7 +192,7 @@ button {
 
 }
 
-.delete img {
+.delete-task img {
 
   height: 2em;
   transform: rotateZ(45deg);
@@ -200,13 +200,13 @@ button {
 
 }
 
-.delete img:hover {
+.delete-task img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#completed-tasks .name {
+.completed .name {
 
   text-decoration: line-through;
   color: #888;
@@ -215,20 +215,20 @@ button {
 
 /* Edit Task */
 
-.wrap-task .input-text {
+.task-item .input-text {
 
   display: none;
 
 }
 
-.wrap-task.edit-mode .input-text {
+.task-item_edit-mode .input-text {
 
   display: inline-block;
   width: 224px;
 
 }
 
-.wrap-task.edit-mode .name {
+.task-item_edit-mode .name {
 
   display: none;
 
