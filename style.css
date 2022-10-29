@@ -60,19 +60,19 @@
 
 #incomplete-tasks, #completed-tasks {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 
 }
 
 li, h3 {
 
-  list-style:none;
+  list-style: none;
 
 }
 input, button {
 
-  outline:none;
+  outline: none;
 
 }
 .edit, .delete, .add {
@@ -205,19 +205,19 @@ input, button {
 
 .wrap-task .input-text {
 
-  display:none
+  display: none
 
 }
 
 .wrap-task.edit-mode .input-text {
 
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 
 }
 
 .wrap-task.edit-mode .name {
 
-  display:none;
+  display: none;
 
 }
