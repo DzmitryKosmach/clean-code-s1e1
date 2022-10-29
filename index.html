@@ -10,7 +10,7 @@
     />
   </head>
   <body class="page">
-    <div class="matrix">
+    <header class="matrix">
       <img src="./eisenhower-matrix.jpg">
       <a 
           class="matrix__link" 
@@ -18,15 +18,15 @@
       >
         Want more details?
       </a>
-    </div>
-    <div class="main">
-      <p id="add">
-        <label class="section-name" for="add__input">Add Item</label>
+    </header>
+    <main class="main">
+      <section id="add">
+        <h3 class="section-name" for="add__input">Add Item</h3>
         <div class="add__input-wrapper">
           <input id="add__input" class="task" type="text">
           <button class="add">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="section-name">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="wrap-task">
@@ -60,7 +60,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
