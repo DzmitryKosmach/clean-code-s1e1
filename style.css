@@ -48,7 +48,7 @@
 
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 
 }
 
@@ -178,7 +178,7 @@ input, button {
 }
 .task {
 
-  width: 226px
+  width: 226px;
 
 }
 .delete img {
@@ -205,14 +205,14 @@ input, button {
 
 .wrap-task .input-text {
 
-  display: none
+  display: none;
 
 }
 
 .wrap-task.edit-mode .input-text {
 
   display: inline-block;
-  width: 224px
+  width: 224px;
 
 }
 
